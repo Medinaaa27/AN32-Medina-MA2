@@ -46,9 +46,9 @@ let highestPrice = 0;
 for(let products of product){
     if(products.price > highestPrice){
         highestPrice = products.price;
-        highestPriceName = products.name;
+        mostExpensiveProduct = products.name;
     }
 }
 
 console.log(" Updated Laptop Quantity: " ,product[0].quantity += addLaptop);
-console.log("Most Expensive Product: ", highestPriceProductName);
+console.log("Most Expensive Product: ", mostExpensiveProduct);
